@@ -8,6 +8,7 @@
     "test": "hardhat test",
     "benchmark": "hardhat run scripts/benchmark.js",
     "demo-data": "hardhat run scripts/demo-data.js --network localhost",
+    "full-demo": "hardhat run scripts/full-demo.js --network localhost",
     "node": "hardhat node",
     "dev": "vite --host 127.0.0.1",
     "build": "vite build"
