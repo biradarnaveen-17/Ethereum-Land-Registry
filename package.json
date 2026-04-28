@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-land-registry-gas-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ethereum land registration dApp with base vs optimized smart contract gas analysis.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "benchmark": "hardhat run scripts/benchmark.js",
+    "demo-data": "hardhat run scripts/demo-data.js --network localhost",
+    "node": "hardhat node",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "hardhat": "^2.28.0",
+    "vite": "^7.2.6"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}
